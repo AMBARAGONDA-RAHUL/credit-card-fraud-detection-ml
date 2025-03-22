@@ -17,7 +17,7 @@ This guide walks you through deploying an **Azure Kubernetes Service (AKS) clust
 
 ---
 
-### 🎯 **Project Architecture ** 
+### 🎯 **Project Architecture**
 ![AKS Architecture](new.jpeg)
 
 ---
