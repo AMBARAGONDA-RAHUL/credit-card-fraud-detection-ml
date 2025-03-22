@@ -14,7 +14,9 @@ This guide walks you through deploying an **Azure Kubernetes Service (AKS) clust
 ✔ **Manage Azure Key Vault** for secure secrets management  
 ✔ **Use Terraform outputs** for integration with other services  
 ✔ **Follow a modular and scalable approach** for real-world scenarios  
+---
 
+### 🎯 **Project Architecture :** 
 ![AKS Architecture](new.jpeg)
 
 ---
