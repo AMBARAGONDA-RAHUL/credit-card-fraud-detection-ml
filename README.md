@@ -62,7 +62,7 @@ Before you begin, ensure you have the following installed:
 
 ### 1️⃣ **Clone the Repository**  
 ```bash
-git clone https://github.com/your-repo/terraform-aks-deployment.git
+git clone https://github.com/RAHUL-AMBARAGONDA/Terraform-Lab
 cd terraform-aks-deployment/environments/dev
 ```
 
