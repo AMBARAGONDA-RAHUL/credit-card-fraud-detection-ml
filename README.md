@@ -1,6 +1,3 @@
-Got it! Here's your **README.md** file structured as a **step-by-step guide** for deploying an **Azure Kubernetes Service (AKS) cluster using Terraform custom modules**.  
-
----
 
 # 🚀 Deploy Azure Kubernetes Service (AKS) using Terraform Custom Modules  
 
