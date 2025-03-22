@@ -9,11 +9,12 @@
 This guide walks you through deploying an **Azure Kubernetes Service (AKS) cluster** using **Terraform custom modules**. By breaking down the infrastructure into reusable components, you can efficiently manage and scale your cloud deployments.  
 
 ### 🎯 **What You’ll Learn:**  
-✔ **Create and use Terraform custom modules** for reusability  
-✔ **Deploy an AKS cluster** with best practices  
-✔ **Manage Azure Key Vault** for secure secrets management  
-✔ **Use Terraform outputs** for integration with other services  
-✔ **Follow a modular and scalable approach** for real-world scenarios  
+✔ Create and use Terraform custom modules for reusability  
+✔ Deploy an AKS cluster with best practices  
+✔ Manage Azure Key Vault for secure secrets management  
+✔ Use Terraform outputs for integration with other services  
+✔ Follow a modular and scalable approach for real-world scenarios  
+
 ---
 
 ### 🎯 **Project Architecture :** 
