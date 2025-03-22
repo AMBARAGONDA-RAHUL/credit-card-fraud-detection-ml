@@ -15,7 +15,7 @@ This guide walks you through deploying an **Azure Kubernetes Service (AKS) clust
 ✔ **Use Terraform outputs** for integration with other services  
 ✔ **Follow a modular and scalable approach** for real-world scenarios  
 
-![AKS Architecture](aks_arch.png)
+![AKS Architecture](new.jpeg)
 
 ---
 
