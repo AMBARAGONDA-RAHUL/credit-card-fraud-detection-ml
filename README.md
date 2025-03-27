@@ -142,7 +142,7 @@ This module **creates an Azure Service Principal** for secure authentication.
 ---
 
 ## 👨‍💻 Author  
-📌 Rahul – DevSecOps Engineer | Azure & Terraform Specialist  
+📌 Rahul – DevSecOps Engineer | Azure & DevOps Engineer 
 🔗 [LinkedIn](https://www.linkedin.com/in/Rahul-Ambaragonda) | 
 
 🚀 **Happy Terraforming!** 🏗️🔥
