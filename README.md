@@ -15,9 +15,13 @@ This project uses **Machine Learning** to detect fraudulent credit card transact
 ### 🎯 **What You’ll Learn:**
 
 ✔ Perform Exploratory Data Analysis (EDA) with Python
+
 ✔ Handle imbalanced datasets for classification tasks
+
 ✔ Train and evaluate a Random Forest model
+
 ✔ Understand performance metrics like precision, recall, F1, MCC
+
 ✔ Visualize fraud detection results with heatmaps and statistics
 
 ---
