@@ -1,143 +1,152 @@
 
-# 🚀 Deploy Azure Kubernetes Service (AKS) using Terraform Custom Modules  
+# 💳 Credit Card Fraud Detection — Machine Learning Project
 
-![Terraform](https://img.shields.io/badge/Terraform-IaC-blue?style=for-the-badge&logo=terraform)  
-![Azure Kubernetes Service](https://img.shields.io/badge/Azure%20Kubernetes%20Service-Managed-blue?style=for-the-badge&logo=microsoft-azure)  
-![DevOps](https://img.shields.io/badge/DevOps-Automation-orange?style=for-the-badge&logo=devops)  
-
-## 📌 Introduction  
-This guide walks you through deploying an **Azure Kubernetes Service (AKS) cluster** using **Terraform custom modules**. By breaking down the infrastructure into reusable components, you can efficiently manage and scale your cloud deployments.  
-
-### 🎯 **What You’ll Learn:**  
-✔ Create and use Terraform custom modules for reusability  
-✔ Deploy an AKS cluster with best practices  
-✔ Manage Azure Key Vault for secure secrets management  
-✔ Use Terraform outputs for integration with other services  
-✔ Follow a modular and scalable approach for real-world scenarios  
+![Python](https://img.shields.io/badge/Python-ML-yellow?style=for-the-badge\&logo=python)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Modeling-orange?style=for-the-badge\&logo=scikitlearn)
+![Pandas](https://img.shields.io/badge/Pandas-EDA-blue?style=for-the-badge\&logo=pandas)
+![Project Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
 
 ---
 
-### 🎯 **Project Architecture**
-![AKS Architecture](new.jpeg)
+## 📌 Introduction
+
+This project uses **Machine Learning** to detect fraudulent credit card transactions from anonymized data. The dataset is heavily imbalanced (very few fraud cases), so special attention is given to **precision, recall, and F1-score** rather than just accuracy.
+
+### 🎯 **What You’ll Learn:**
+
+✔ Perform Exploratory Data Analysis (EDA) with Python
+✔ Handle imbalanced datasets for classification tasks
+✔ Train and evaluate a Random Forest model
+✔ Understand performance metrics like precision, recall, F1, MCC
+✔ Visualize fraud detection results with heatmaps and statistics
 
 ---
 
-## 🛠️ Prerequisites  
-Before you begin, ensure you have the following installed:  
+## 🛠️ Tech Stack
 
-🔹 **Azure Account** (with permissions to create resources)  
-🔹 **Terraform CLI** (`>= 1.0`)  
-🔹 **Azure CLI** (`az login`)  
-🔹 **Service Principal** (with `Contributor` role on Azure)  
+* **Python** (Pandas, NumPy, Matplotlib, Seaborn)
+* **Scikit-learn** (Random Forest, Model Evaluation)
+* **Jupyter Notebook** for experimentation
+* **Git** & **GitHub** for version control and sharing
 
 ---
 
-## 📁 Project Structure  
+## 📁 Project Structure
+
 ```bash
-📦 terraform-aks-deployment
-├── modules/
-│   ├── aks/
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   ├── outputs.tf
-│   ├── keyvault/
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   ├── outputs.tf
-│   ├── service-principal/
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   ├── outputs.tf 
-├── variables.tf
-├── main.tf
-├── provider.tf
-├── backend.tf
+📦 credit-card-fraud-detection-ml
+├── creditcard.csv
+├── fraud_detection.ipynb
 ├── README.md
-
+├── requirements.txt
+└── screenshots/
+    ├── data_head.png
+    ├── heatmap.png
+    ├── confusion_matrix.png
 ```
 
 ---
 
-## 🚀 Step-by-Step Deployment Guide  
+## 🚀 Steps to Run the Project
 
-### 1️⃣ **Clone the Repository**  
+### 1️⃣ Clone the Repository
+
 ```bash
-git clone https://github.com/RAHUL-AMBARAGONDA/Terraform-Lab.git
-cd terraform-aks-deployment/environments/dev
+git clone https://github.com/RAHUL-AMBARAGONDA/credit-card-fraud-detection-ml.git
+cd credit-card-fraud-detection-ml
 ```
 
-### 2️⃣ **Initialize Terraform**  
+### 2️⃣ Install Requirements
+
 ```bash
-terraform init
+pip install -r requirements.txt
 ```
 
-### 3️⃣ **Validate and Plan Deployment**  
-```bash
-terraform validate
-terraform plan
-```
+### 3️⃣ Open the Notebook
 
-### 4️⃣ **Apply the Configuration**  
 ```bash
-terraform apply -auto-approve
-```
-
-### 5️⃣ **Retrieve AKS Cluster Credentials**  
-Once the deployment is complete, configure `kubectl` to interact with the cluster:  
-```bash
-az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
-```
-
-### 6️⃣ **Verify Deployment**  
-```bash
-kubectl get nodes
-```
-
-### 7️⃣ **Destroy the Infrastructure (if needed)**  
-```bash
-terraform destroy -auto-approve
+jupyter notebook fraud_detection.ipynb
 ```
 
 ---
 
-## 📌 Breakdown of Terraform Modules  
+## 📊 Project Workflow
 
-### **🔹 AKS Module (`modules/aks`)**  
-This module provisions an **Azure Kubernetes Service (AKS) cluster** with the required configuration.  
-📄 **Files:**  
-- `main.tf` – Defines the AKS resources  
-- `variables.tf` – Defines input variables  
-- `outputs.tf` – Defines output values  
+### ✅ Step 1: Import Libraries
 
-### **🔹 Key Vault Module (`modules/keyvault`)**  
-This module provisions an **Azure Key Vault** to store secrets securely.  
-📄 **Files:**  
-- `main.tf` – Defines the Key Vault  
-- `variables.tf` – Defines input variables  
-- `outputs.tf` – Defines output values  
+Includes `pandas`, `matplotlib`, `seaborn`, `sklearn`, and `numpy`.
 
-### **🔹 Service Principal Module (`modules/service-principal`)**  
-This module **creates an Azure Service Principal** for secure authentication.  
-📄 **Files:**  
-- `main.tf` – Defines the Service Principal  
-- `variables.tf` – Defines input variables  
-- `outputs.tf` – Defines output values  
+### ✅ Step 2: Load Dataset
+
+Loads `creditcard.csv` and displays initial insights.
+
+### ✅ Step 3: Data Exploration
+
+* Class distribution (fraud vs. valid)
+* Amount analysis by class
+* Correlation matrix heatmap
+
+### ✅ Step 4: Data Preparation
+
+* Separate features and target
+* Train/test split (80/20)
+
+### ✅ Step 5: Model Training
+
+* **Random Forest Classifier**
+* Fit on training set
+* Predict on test set
+
+### ✅ Step 6: Model Evaluation
+
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Matthews Correlation Coefficient (MCC)
+* Confusion Matrix (Heatmap)
 
 ---
 
-## ⚡ Best Practices  
+## 📈 Sample Output
 
-✅ **Use Remote State Storage** – Store the Terraform state in **Azure Storage** to enable collaboration.  
-✅ **Role-Based Access Control (RBAC)** – Implement RBAC for **secure AKS access**.  
-✅ **CI/CD Pipelines** – Automate deployments with **GitHub Actions / Azure DevOps**.  
-✅ **Logging & Monitoring** – Enable **Azure Monitor & Log Analytics**.  
+| Metric    | Value  |
+| --------- | ------ |
+| Accuracy  | 99.96% |
+| Precision | 98.73% |
+| Recall    | 79.59% |
+| F1-Score  | 88.14% |
+| MCC       | 0.88   |
+
+Confusion Matrix:
+
+![Confusion Matrix](screenshots/confusion_matrix.png)
 
 ---
 
-## 📌 References  
-📖 [Terraform Documentation](https://developer.hashicorp.com/terraform/docs)  
-📖 [Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/)  
-📖 [Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/)  
+## ⚡ Future Improvements
+
+* Use **SMOTE / Oversampling** for class imbalance
+* Try **XGBoost** or **LightGBM**
+* Deploy as an API using **Flask** or **FastAPI**
+* Automate pipeline with **MLflow** and **CI/CD**
+
+---
+
+## 📌 Dataset Source
+
+[Credit Card Fraud Detection Dataset – Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+
+---
+
+## 🧠 Author
+
+Made with ❤️ by **Rahul Ambaragonda**
+🔗 [LinkedIn](https://linkedin.com/in/rahulambaragonda) • [GitHub](https://github.com/RAHUL-AMBARAGONDA) • [Blog](https://hashnode.com/@rahulambaragonda)
+
+---
+
+Let me know if you'd like a matching `requirements.txt` or help converting this into a `.py` script for production deployment.
 
 ---
 
