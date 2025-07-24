@@ -13,4 +13,4 @@ We begin by importing the necessary Python libraries: numpy, pandas, matplotlib 
 
 5. from matplotlib import gridspec
 
-![Step 1](step-1.png)
+![Step 1](screenshots/step-1.png)
