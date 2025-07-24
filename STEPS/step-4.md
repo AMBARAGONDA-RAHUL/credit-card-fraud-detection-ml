@@ -35,8 +35,6 @@ plt.legend()
 plt.grid(True)
 plt.show()
 ### 🔍 Summary Statistics for Fraudulent Transactions
-
-```python
 print("Amount details of the fraudulent transaction")
 fraud.Amount.describe()
 ````
