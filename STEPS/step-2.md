@@ -35,16 +35,17 @@ print(data.head())
 ```python
 print(data.describe())
 ````
-📊 df.describe() is like a quick report card for your data!
-For each column, it gives you:
 
-Word	What it means (like a child)
-count	How many people gave an answer (number of values in the column)
-mean	The average — if we added all the numbers and divided by how many there are
-std	Are the numbers close to the average or jumping all around? This tells us how “spread out” they are
-min	The smallest number in the column
-25%	A small number where 25% of values are even smaller than this (bottom quarter)
-50%	The middle number (half above, half below) — also called median
-75%	A number where 75% of the data is smaller — only 25% are bigger
-max	The biggest number in the column
+| Word      | What it means (like a child)                                                                        |
+| --------- | --------------------------------------------------------------------------------------------------- |
+| **count** | How many people gave an answer (number of values in the column)                                     |
+| **mean**  | The average — if we added all the numbers and divided by how many there are                         |
+| **std**   | Are the numbers close to the average or jumping all around? This tells us how “spread out” they are |
+| **min**   | The smallest number in the column                                                                   |
+| **25%**   | A small number where 25% of values are even smaller than this (bottom quarter)                      |
+| **50%**   | The middle number (half above, half below) — also called **median**                                 |
+| **75%**   | A number where 75% of the data is smaller — only 25% are bigger                                     |
+| **max**   | The biggest number in the column                                                                    |
+
+
 <img width="1000" height="297" alt="Image" src="https://github.com/user-attachments/assets/39aec91b-3c6f-4727-8acc-54d9e40122f3" />
