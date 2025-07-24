@@ -11,12 +11,3 @@ In this step, we start by importing the essential Python libraries that will be 
 - **`gridspec` from matplotlib**: Helps in arranging multiple plots in a grid layout for better visualization.
   
 <img width="1569" height="305" alt="Image" src="https://github.com/user-attachments/assets/15e744cf-1536-458c-8244-bb29164deaa0" />
-
-### Code to Import Libraries:
-
-```python
-import numpy as np  
-import pandas as pd  
-import matplotlib.pyplot as plt  
-import seaborn as sns  
-from matplotlib import gridspec
