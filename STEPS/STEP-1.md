@@ -12,5 +12,5 @@ We begin by importing the necessary Python libraries: numpy, pandas, matplotlib 
 4. import seaborn as sns
 
 5. from matplotlib import gridspec
-
 ![Step 1](screenshots/step-1.png)
+
