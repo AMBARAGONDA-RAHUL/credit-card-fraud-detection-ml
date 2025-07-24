@@ -14,6 +14,12 @@ This end-to-end machine learning project detects fraudulent credit card transact
 
 ### 🎯 **What You’ll Learn:**
 
+✔ Protect users from financial loss
+ 
+✔ Prevent misuse of banking systems
+  
+✔ Improve transaction trustworthiness in digital platforms
+
 ✔ Perform Exploratory Data Analysis (EDA) with Python
 
 ✔ Handle imbalanced datasets for classification tasks
