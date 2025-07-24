@@ -31,4 +31,8 @@ print(data.head())
 
 ![Dataset Preview](https://github.com/user-attachments/assets/7e46dd11-5f6b-4912-931e-b3097d23ba0c)
 
-```
+### Now, let's explore more about the dataset using df.describe() method.
+```python
+print(data.describe())
+````
+<img width="1000" height="297" alt="Image" src="https://github.com/user-attachments/assets/39aec91b-3c6f-4727-8acc-54d9e40122f3" />
