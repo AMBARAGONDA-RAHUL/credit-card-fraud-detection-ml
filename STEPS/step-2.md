@@ -35,8 +35,8 @@ print(data.head())
 ```python
 print(data.describe())
 ````
-
-| Word      | What it means (like a child)                                                                        |
+ 
+| Word      | What it means                                                                                       |
 | --------- | --------------------------------------------------------------------------------------------------- |
 | **count** | How many people gave an answer (number of values in the column)                                     |
 | **mean**  | The average — if we added all the numbers and divided by how many there are                         |
