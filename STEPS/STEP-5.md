@@ -30,7 +30,7 @@ plt.show()
 
 ### 🖼️ Visual Snapshot
 
-![Correlation Matrix](<img width="901" height="782" alt="Image" src="https://github.com/user-attachments/assets/d1e4d3d2-4d32-40ba-8f57-f46d54c8f747" />)
+![Correlation Matrix] <img width="901" height="782" alt="Image" src="https://github.com/user-attachments/assets/d1e4d3d2-4d32-40ba-8f57-f46d54c8f747" />
 
 ---
 
