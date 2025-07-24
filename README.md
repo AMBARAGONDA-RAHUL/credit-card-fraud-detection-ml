@@ -83,27 +83,27 @@ Includes `pandas`, `matplotlib`, `seaborn`, `sklearn`, and `numpy`.
 ### ✅ Step 2: Load Dataset
 
 Loads `creditcard.csv` and displays initial insights.
-[Open Step 2](credit-card-fraud-detection-ml/STEPS/step-2.md)
+[Open Step 2](STEPS/step-2.md)
 
 ### ✅ Step 3: Data Exploration
 
 * Class distribution (fraud vs. valid)
 * Amount analysis by class
 * Correlation matrix heatmap
-  [Open Step 3](credit-card-fraud-detection-ml/STEPS/step-3.md)
+  [Open Step 3](STEPS/step-3.md)
 
 ### ✅ Step 4: Data Preparation
 
 * Separate features and target
 * Train/test split (80/20)
-  [Open Step 4](credit-card-fraud-detection-ml/STEPS/step-4.md)
+  [Open Step 4](STEPS/step-4.md)
 
 ### ✅ Step 5: Model Training
 
 * **Random Forest Classifier**
 * Fit on training set
 * Predict on test set
-  [Open Step 5](credit-card-fraud-detection-ml/STEPS/STEP-5.md)
+  [Open Step 5](STEPS/STEP-5.md)
 
 ### ✅ Step 6: Model Evaluation
 
@@ -113,22 +113,22 @@ Loads `creditcard.csv` and displays initial insights.
 * F1-Score
 * Matthews Correlation Coefficient (MCC)
 * Confusion Matrix (Heatmap)
-  [Open Step 6](credit-card-fraud-detection-ml/STEPS/step-6.md)
+  [Open Step 6](STEPS/step-6.md)
 
 ### ✅ Step 7: Building and Training the Model
 
 * Train a Random Forest classifier on the training data to predict fraudulent transactions.
-  [Open Step 7](credit-card-fraud-detection-ml/STEPS/step-7.md)
+  [Open Step 7](STEPS/step-7.md)
 
 ### ✅ Step 8: Evaluating the Model
 
 * Evaluate the trained model using metrics like accuracy, precision, recall, F1-score, Matthews correlation coefficient, and confusion matrix.
-  [Open Step 8](credit-card-fraud-detection-ml/STEPS/step-8.md)
+  [Open Step 8](STEPS/step-8.md)
 
 ### ✅ Step 9: Future Improvements
 
 * Ideas for oversampling, advanced models, API deployment, and CI/CD automation.
-  [Open Step 9](credit-card-fraud-detection-ml/STEPS/step-9.md)
+  [Open Step 9](STEPS/step-9.md)
 
 ---
 
