@@ -46,3 +46,4 @@ plt.show()
 
 * **Correlation analysis** helps detect **redundant features** or those that could **confuse models**.
 * Helps in **feature selection**, **feature engineering**, and in understanding **data behavior** before modeling.
+* Most features do not correlate strongly with others but some features like V2 and V5 have a negative correlation with the Amount feature. This provides valuable insights into how the features are related to the transaction amounts.
