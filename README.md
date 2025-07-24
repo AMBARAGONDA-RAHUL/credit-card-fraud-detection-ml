@@ -78,7 +78,7 @@ jupyter notebook fraud_detection.ipynb
 ### ✅ Step 1: Import Libraries
 
 Includes `pandas`, `matplotlib`, `seaborn`, `sklearn`, and `numpy`.
-[Open Step 1](credit-card-fraud-detection-ml/STEPS/step-1.md)
+[Open Step 1](STEPS/step-1.md)
 
 ### ✅ Step 2: Load Dataset
 
