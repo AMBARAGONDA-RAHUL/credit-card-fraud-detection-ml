@@ -151,11 +151,3 @@ Made with ❤️ by **Rahul Ambaragonda**
 ---
 
 Let me know if you'd like a matching `requirements.txt` or help converting this into a `.py` script for production deployment.
-
----
-
-## 👨‍💻 Author  
-📌 Rahul – | Azure & DevOps Engineer 
-🔗 [LinkedIn](https://www.linkedin.com/in/Rahul-Ambaragonda) | 
-
-🚀 **Happy Terraforming!** 🏗️🔥
