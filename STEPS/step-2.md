@@ -32,16 +32,3 @@ print(data.head())
 ![Dataset Preview](https://github.com/user-attachments/assets/7e46dd11-5f6b-4912-931e-b3097d23ba0c)
 
 ```
-
----
-
-### Explanation:
-- The image is **after the code block** with a descriptive heading.
-- The image will render nicely under the code snippet on GitHub.
-- Make sure your image URL is correct and accessible.
-
----
-
-If you want me to help format more steps or add extra details, just let me know!
-```
-
