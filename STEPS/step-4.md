@@ -42,6 +42,7 @@ fraud.Amount.describe()
 
 
 ### OUTPUT
+
 ```python
 print("details of valid transaction")
 valid.Amount.describe()
