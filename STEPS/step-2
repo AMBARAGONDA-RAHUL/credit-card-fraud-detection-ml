@@ -1,6 +1,0 @@
-Load the dataset into a pandas DataFrame and examine its structure. You can download the dataset from here. The dataset contains 284,807 transactions with 31 features including:
-
-Time: This shows how many seconds have passed since the first transaction in the dataset.
-V1-V28: These are special features created to hide sensitive information about the original data.
-Amount: Transaction amount.
-Class: Target variable (0 for normal transactions, 1 for fraudulent transactions).
