@@ -3,12 +3,12 @@
 We begin by importing the necessary Python libraries: numpy, pandas, matplotlib and seaborn for data handling, visualization and model building.
 
 
-import numpy as np
+1.import numpy as np
 
-import pandas as pd
+2.import pandas as pd
 
-import matplotlib.pyplot as plt
+3.import matplotlib.pyplot as plt
 
-import seaborn as sns
+4.import seaborn as sns
 
-from matplotlib import gridspec
+5.from matplotlib import gridspec
