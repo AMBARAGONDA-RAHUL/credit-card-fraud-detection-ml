@@ -82,7 +82,7 @@ jupyter notebook fraud_detection.ipynb
 
 ## 📊 Project Workflow
 
-### ✅ Step 1: Import Libraries
+### ✅ Step 1: Import Libraries 
 
 Includes `pandas`, `matplotlib`, `seaborn`, `sklearn`, and `numpy`.
 
@@ -115,6 +115,15 @@ Loads `creditcard.csv` and displays initial insights.
 * F1-Score
 * Matthews Correlation Coefficient (MCC)
 * Confusion Matrix (Heatmap)
+  
+### ✅ Step 7: Building and Training the Model
+
+Train a Random Forest classifier on the training data to predict fraudulent transactions.
+
+
+### ✅ Step 8: Evaluating the Model
+
+Evaluate the trained model using metrics like accuracy, precision, recall, F1-score, Matthews correlation coefficient, and confusion matrix.
 
 ---
 
