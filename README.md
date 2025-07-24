@@ -142,11 +142,6 @@ Loads `creditcard.csv` and displays initial insights.
 | F1-Score  | 88.14% |
 | MCC       | 0.88   |
 
-Confusion Matrix:
-
-![Confusion Matrix](screenshots/confusion_matrix.png)
-
----
 
 ## ⚡ Future Improvements
 
