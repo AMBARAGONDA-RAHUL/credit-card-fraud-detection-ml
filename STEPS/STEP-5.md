@@ -30,7 +30,7 @@ plt.show()
 
 ### 🖼️ Visual Snapshot
 
-![Correlation Matrix](screenshots/correlation_matrix.png)
+![Correlation Matrix]<img width="901" height="782" alt="Image" src="https://github.com/user-attachments/assets/d1e4d3d2-4d32-40ba-8f57-f46d54c8f747" />
 
 ---
 
@@ -46,15 +46,3 @@ plt.show()
 
 * **Correlation analysis** helps detect **redundant features** or those that could **confuse models**.
 * Helps in **feature selection**, **feature engineering**, and in understanding **data behavior** before modeling.
-
-````
-
----
-
-✅ Be sure to save your heatmap like this before `plt.show()` to include in `screenshots/`:
-
-```python
-plt.savefig('screenshots/correlation_matrix.png')
-````
-
-Would you like help crafting **Step 6: Data Preprocessing (Train/Test Split, Scaling)** next? You're doing a solid job documenting your project step-by-step — it’ll pay off when recruiters or hiring managers browse your GitHub.
