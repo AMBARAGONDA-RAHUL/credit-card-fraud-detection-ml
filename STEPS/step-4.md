@@ -34,8 +34,14 @@ plt.ylabel('Density')
 plt.legend()
 plt.grid(True)
 plt.show()
-### 🔍 Summary Statistics for Fraudulent Transactions
+ 🔍 Summary Statistics for Fraudulent Transactions
 print("Amount details of the fraudulent transaction")
 fraud.Amount.describe()
 ````
 <img width="444" height="430" alt="Image" src="https://github.com/user-attachments/assets/8f8bde77-1229-4801-9445-7e52e3a5235e" />
+### OUTPUT
+```python
+print("details of valid transaction")
+valid.Amount.describe()
+````
+<img width="283" height="432" alt="Image" src="https://github.com/user-attachments/assets/5c42145a-0dca-4391-b6d1-fdea7397c344" />
