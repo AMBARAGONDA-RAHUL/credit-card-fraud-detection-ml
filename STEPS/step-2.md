@@ -13,7 +13,7 @@ In this step, we load the credit card fraud dataset into a pandas DataFrame and 
   - **Class**: The target variable —  
     - `0` = Normal transaction  
     - `1` = Fraudulent transaction
-
+![Image](https://github.com/user-attachments/assets/7e46dd11-5f6b-4912-931e-b3097d23ba0c)
 ### Code to Load and Preview the Dataset
 
 ```python
