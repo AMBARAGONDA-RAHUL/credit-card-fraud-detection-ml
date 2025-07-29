@@ -33,6 +33,7 @@ This end-to-end machine learning project detects fraudulent credit card transact
 * **Git** & **GitHub** for version control and sharing
 
 ---
+![Image](https://github.com/user-attachments/assets/5e86f9a5-c2b6-4006-8bd8-a9de1ccff112)
 
 ## 📁 Project Structure
 
